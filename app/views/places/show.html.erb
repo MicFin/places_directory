@@ -47,7 +47,7 @@
       map: map, 
     });
   }
-
+  initMap();
   <% @reviews.each do |review| %>
       $(".score_<%= review.id %> ").raty({
       starOn: "<%= image_path('star-on.png') %>",
